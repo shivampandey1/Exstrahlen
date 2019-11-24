@@ -13,7 +13,7 @@
           </div> --> 
           <div class="copy shadow">
             <h2>Provide critical care faster</h2>
-            <p>The average patient wait time in an emergency room is 18 hours. We believe no one should have to wait to recieve access to a basic human right. Exstrahlen decreases patient wait times by helping you perform accurate diagnostic analysis, faster. We recognise the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>The average patient wait time in an emergency room is 18 hours. These delays are caused primarily by the extensive time requirements involved in identifying abnormalities in x-rays and scans, and analyzing these problem areas to perform medial diagnostics. We believe no one should have to wait to recieve access to a basic human right. Exstrahlen decreases patient wait times by helping you perform accurate diagnostic analysis, faster.</p>
             <router-link to='/application'><a class="link purple"> Get Started &#8594;</a></router-link>
           </div>
         </div>

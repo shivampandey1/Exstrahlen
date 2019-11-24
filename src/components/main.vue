@@ -55,6 +55,7 @@ export default {
 .link:hover {
   font-size: 1.6rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .purple {

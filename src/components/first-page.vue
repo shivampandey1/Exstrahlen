@@ -14,7 +14,7 @@
           <div class="copy shadow">
             <h2>Provide critical care faster</h2>
             <p>Exstrahlen decreases patient wait times by helping you perform accurate diagnostic analysis, faster. We recognise the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <a class="link purple"><router-link to:'/application'> Get Started &#8594;</router-link></a>
+            <router-link to='/application'><a class="link purple"> Get Started &#8594;</a></router-link>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
               <img src='../assets/clock.png'>
             </div>
           </div>
-          <b-button link class="link purple final-cta">Start improving care &#8594;</b-button>
+          <router-link to='/application'><b-button link class="link purple final-cta">Start improving care &#8594;</b-button></router-link>
         </div>
       </div>
     </div>
@@ -66,6 +66,10 @@ export default {
 </script>
 
 <style>
+a:hover {
+  text-decoration: none !important;
+}
+
 h1, h2, h3, p {
   color: #33333a;
   padding-bottom: 0.2rem;

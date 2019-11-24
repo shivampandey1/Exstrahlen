@@ -7,11 +7,7 @@
         <p class="white">Please be advised that medical diagnostics should not be based solely on the results provided below. The recommendations are used to identify abnormalities.</p>
       </div>
     </div>
-    <div class="box"> 
-      <div class="drop"> 
-        <h4>Drop file here</h4>
-      </div>
-    </div>
+    <drag-drop></drag-drop>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -52,6 +48,7 @@
 
 <script>
 import navbar from './nav.vue'
+import dragDrop from './drag-drop.vue'
 
 // Vue.config.productionTip = false;
 // Vue.config.devtools = false;
@@ -66,7 +63,8 @@ export default {
     files:[]
   },
   components: {
-    'nav-bar': navbar
+    'nav-bar': navbar, 
+    'drag-drop': dragDrop
   }
   // computed: {
   //   uploadDisabled() {

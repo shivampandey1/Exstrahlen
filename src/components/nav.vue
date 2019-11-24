@@ -75,6 +75,10 @@ a {
   color: white !important;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .btn-outline {
   border-color: white !important;
 }

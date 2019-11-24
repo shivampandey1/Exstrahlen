@@ -4,6 +4,7 @@
     </div>
     <div class="header-text">
       <h1>Healthcare needs AI to scale</h1>
+      <router-link to='/application'><a class="link purple"> Get Started &#8594;</a></router-link>
     </div>
   </div>
 </template>
@@ -40,9 +41,24 @@ export default {
 }
 
 .header-text {
-  margin-top: 30vh;
+  margin-top: 26vh;
   position: absolute;
   margin-left: 10vw;
   background-image: url('../assets/bean.png');
+}
+
+
+.link {
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  font-size: 1.6rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.purple {
+  color: rgb(28, 47, 174) !important;
 }
 </style>

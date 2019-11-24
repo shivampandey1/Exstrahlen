@@ -51,7 +51,7 @@ export default {
 
 .navbar-brand {
   font-size: 1.5rem;
-  color: rgba(41, 0, 138, 1) !important;
+  color: rgb(28, 47, 174) !important;
 }
 
 #white  {

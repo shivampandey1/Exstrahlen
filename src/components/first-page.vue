@@ -5,7 +5,7 @@
     <div class="second">
       <div class="inner">
         <div class="image">
-          <img src='../assets/clock2.png'>
+          <img src='../assets/clock.png'>
         </div>
         <div class="text">
           <!-- <div class="stat">
@@ -13,7 +13,7 @@
           </div> --> 
           <div class="copy shadow">
             <h2>Provide critical care faster</h2>
-            <p>The average patient wait time in an emergency room is 18 hours. These delays are caused primarily by the extensive time requirements involved in identifying abnormalities in x-rays and scans, and analyzing these problem areas to perform medial diagnostics. We believe no one should have to wait to recieve access to a basic human right. Exstrahlen decreases patient wait times by helping you perform accurate diagnostic analysis, faster.</p>
+            <p>Exstrahlen decreases patient wait times by helping you perform accurate diagnostic analysis, faster. We recognise the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <router-link to='/application'><a class="link purple"> Get Started &#8594;</a></router-link>
           </div>
         </div>
@@ -23,26 +23,26 @@
           <h2 class="header">Easy to Use</h2>
           <div class="step">
             <div class="col">
-              <img src='../assets/upload.png'>
+              <img src='../assets/clock.png'>
             </div>
             <div class="col copy shadow">
               <div class="title">
                 <h2><strong>1</strong></h2>
                 <h3>Upload X-Ray</h3>
               </div>
-              <p>First, upload the X-ray via drag and drop. Our deep learning model applies it’s knowledge of over 110,000 scans of different conditions to analyze the file for various abnormalities.</p>
+              <p>Lorem ipsum this is filler text. Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.</p>
             </div>
           </div>
           <div class="step">
             <div class="col copy shadow">
               <div class="title">
                 <h2><strong>2</strong></h2>
-                <h3>Read the results</h3>
+                <h3>Upload X-Ray</h3>
               </div>
-              <p>Our deep learning model will assess what issues may be present in the uploaded scan. The issues will be highlighted for further analysis in the returned report with information about the issues present (i.e Atelectasis, Effusion etc) as well as a score of confidence.</p>
+              <p>Lorem ipsum this is filler text. Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.Lorem ipsum this is filler text.</p>
             </div>
             <div class="col">
-              <img src='../assets/download.png'>
+              <img src='../assets/clock.png'>
             </div>
           </div>
           <router-link to='/application'><b-button link class="link purple final-cta">Start improving care &#8594;</b-button></router-link>
@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 a:hover {
   text-decoration: none !important;
 }
@@ -76,12 +76,11 @@ h1, h2, h3, p {
 }
 
 .header {
-  padding-bottom: 40px; 
-  font-size: 3rem;
+  padding-bottom: 50px; 
 }
 
 .purple {
-  color: rgb(28, 47, 174) !important;
+  color: rgba(41, 0, 138, 1) !important;
 }
 
 .inner {
@@ -103,7 +102,7 @@ h1, h2, h3, p {
 }
 
 img {
-  max-width: 400px;
+  max-width: 900px;
 }
 
 .text {
@@ -149,7 +148,7 @@ img {
   display: flex;
   text-align: left;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .title {
@@ -163,21 +162,19 @@ img {
 }
 
 .col > img{
-  max-width: 500px;
-  margin: 0 40px;
+  max-width: 400px;
 }
 
 .final-cta {
   margin-bottom: 60px;
   padding: 20px 35px !important;
-  background-color: transparent;
+  background-color: rgba(246, 249, 255) !important;
   font-size: 1.4rem !important;
   border: none !important;
 }
 
 .final-cta:hover {
   font-size: 1.5rem !important;
-  background-color: transparent;
 }
 
 </style>

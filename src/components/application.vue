@@ -7,25 +7,29 @@
         <p class="white">Please be advised that medical diagnostics should not be based solely on the results provided below. The recommendations are used to identify abnormalities.</p>
       </div>
     </div>
-    <drag-drop></drag-drop>
+    <div class="box"> 
+      <div class="drop"> 
+        <h4>Drop file here</h4>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="img"><img src='../assets/first.png'></div>
+          <img src='../assets/first.png'>
           <div class="writing">
             <h4>What it is</h4>
             <p>Erstrahlen is a system that assists radiologists in analyzing chest x-rays and helps them make recommendations more accurately. Exstrahlen also improves turnaround times and helps patients receive the care they need.</p>
           </div>
         </div>
         <div class="col">
-          <div class="img"><img src='../assets/how.png'></div>
+          <img src='../assets/how.png'>
           <div class="writing">
             <h4>How it works</h4>
             <p>Erstrahlen utilizes a vue front-end to process your <i>drag & dropped</i> x-ray file. Once you upload a scan, Exstrahlen feeds your X-ray into our CNN hosted by Google Cloud where it assesses the scan based on a training set of 117000 images to provide an accurate analysis.</p>
           </div>
         </div>
         <div class="col">
-          <div class="img"><img src='../assets/what.png'></div>
+          <img src='../assets/what.png'>
           <div class="writing">
             <h4>What the results say</h4>
             <p>Exstrahlen tells you what chest diseases it sees in the X-ray provided, if it finds any at all. It also shows how confident it is in each prediction it makes so that doctors can assess how much weight to give to the analysis.</p>
@@ -48,7 +52,6 @@
 
 <script>
 import navbar from './nav.vue'
-import dragDrop from './drag-drop.vue'
 
 // Vue.config.productionTip = false;
 // Vue.config.devtools = false;
@@ -63,8 +66,7 @@ export default {
     files:[]
   },
   components: {
-    'nav-bar': navbar, 
-    'drag-drop': dragDrop
+    'nav-bar': navbar
   }
   // computed: {
   //   uploadDisabled() {
@@ -120,7 +122,7 @@ export default {
 
   .upload {
     height: 50vh; 
-    background-color: rgb(28, 47, 174) !important;
+    background-color: rgba(41, 0, 138, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,12 +171,9 @@ export default {
     align-items: stretch;
   }
 
-  .img {
-    height: 250px
-  }
-
-  .img > img {
-    width: 100% !important;
+  .col > img {
+    max-width: 100% !important;
+    height: 300px;
   }
 
   .col {

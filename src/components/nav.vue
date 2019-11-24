@@ -51,7 +51,7 @@ export default {
 
 .navbar-brand {
   font-size: 1.5rem;
-  color: rgb(28, 47, 174) !important;
+  color: rgba(41, 0, 138, 1) !important;
 }
 
 #white  {
@@ -73,10 +73,6 @@ export default {
 
 a {
   color: white !important;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .btn-outline {

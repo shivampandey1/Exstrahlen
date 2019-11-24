@@ -72,6 +72,4 @@ a {
 .btn-outline {
   border-color: white !important;
 }
-
-
 </style>

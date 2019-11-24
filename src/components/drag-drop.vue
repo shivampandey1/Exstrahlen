@@ -156,6 +156,19 @@
 
           formData.append('files[' + i + ']', file);
         }
+        var success = 0
+        var res = ""
+
+        axios.get('https://localhost:4000/json?img=' + formData[0])
+  .then((response) => {
+    res = response.data
+    success = response.status
+    console.log(response.data);
+    console.log(response.status);
+    console.log(response.statusText);
+    console.log(response.headers);
+    console.log(response.config);
+  });
 
         /*
           Make the request to the POST /file-drag-drop URL

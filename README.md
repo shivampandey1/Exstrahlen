@@ -20,4 +20,10 @@ npm run build
 npm run lint
 ```
 
-npm i --save core-js regenerator-runtime
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+# Exstrahlen
+# Exstrahlen
+# Exstrahlen
+# Hack-Western
+# Hack-Western

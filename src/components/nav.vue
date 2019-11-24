@@ -40,6 +40,11 @@ export default {
 </script>
 
 <style scoped>
+
+* {
+  text-decoration: none !important;
+}
+
 .navbar {
   padding: 30px;
   background-color: transparent;
@@ -51,7 +56,13 @@ export default {
 
 .navbar-brand {
   font-size: 1.5rem;
-  color: rgba(41, 0, 138, 1) !important;
+  color: rgb(28, 47, 174) !important;
+  transition: 0.25s;
+}
+
+.navbar-brand:hover {
+  font-size: 1.6rem;
+  transition: 0.25s;
 }
 
 #white  {
@@ -65,6 +76,13 @@ export default {
 
 .margin {
   margin: 10px;
+  transition: 0.25s;
+}
+
+.margin:hover {
+  margin: 10px;
+  font-size: 1.1em;
+  transition: 0.25s;
 }
 
 .navbar-nav {
@@ -77,10 +95,15 @@ a {
 
 .btn-outline {
   border-color: white !important;
+  text-decoration: none;
+  transition: 0.25s;
 }
 
 .btn:hover {
   background-color: transparent !important;
+  font-size: 1.1em;
+  transition: 0.25s;
   padding: auto 15px;
 }
+
 </style>

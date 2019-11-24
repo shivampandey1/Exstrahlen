@@ -9,6 +9,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.1.0",
+    "core-js": "^3.3.2",
     "rellax": "^1.10.0",
     "vue": "^2.6.10",
     "vue-rellax": "^0.1.0",
